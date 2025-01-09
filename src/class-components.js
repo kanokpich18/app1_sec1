@@ -9,7 +9,7 @@ export default class Calender extends Component{
         const day = date.getDate()
         const month = monthNames[date.getMonth()]
         const year = date.getFullYear() + 543
-        return `วัน${weekDay} ที่ ${day} ${month} ${year}`
+        return `วัน${weekDay} ที่ ${day} ${month} ${year}` 
     }
     render(){
         return<div>{this.getDate()}</div>
