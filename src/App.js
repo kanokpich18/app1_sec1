@@ -1,8 +1,8 @@
 import React from "react";
-import Button from "./event-class";
+import { Calculator } from "./calculator";
 
 function App() {
-  return <Button/>
+  return <Calculator/>
    
 }
 
