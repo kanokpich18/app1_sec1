@@ -1,6 +1,6 @@
 import React from "react";
-import { EvenData } from "./even-data";
+import RefsFunc from "./ref-func";
 
 export default function App(){
-  return<EvenData/>
+  return<RefsFunc/>
 }
