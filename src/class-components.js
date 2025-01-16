@@ -12,6 +12,6 @@ export default class Calender extends Component{
         return `วัน${weekDay} ที่ ${day} ${month} ${year}` 
     }
     render(){
-        return<div>{this.getDate()}</div>
-    }
+       return<div>{this.getDate()}</div>
+   }
 }
